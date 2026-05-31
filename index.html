@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X-O Games menu</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#3a3385,#1f1b4d);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    text-align:center;
+    color:white;
+}
+
+h1{
+    margin-bottom:30px;
+}
+
+.btn{
+    display:block;
+    width:280px;
+    margin:15px auto;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.normal{
+    background:#00aaff;
+    color:white;
+}
+
+.robot{
+    background:#00cc66;
+    color:white;
+}
+
+.evil{
+    background:#ff3355;
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🎮 X-O Games Hub</h1>
+
+<button class="btn normal"
+onclick="location.href='https://abdelmalkali.github.io/X-O-GAME/'">
+    👥 اللعب مع صديق
+</button>
+
+<button class="btn robot"
+onclick="location.href='https://abdelmalkali.github.io/X-O-GAME-robot/'">
+    🤖 ضد الروبوت
+</button>
+
+<button class="btn evil"
+onclick="location.href='https://abdelmalkali.github.io/X-O-GAME-evil/'">
+    😈 الروبوت المستحيل
+</button>
+</div>
+
+</body>
+</html>
